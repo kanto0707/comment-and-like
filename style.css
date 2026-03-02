@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.publication {
+    width: 50vw;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.publication-head {
+    align-items: center;
+    display: flex;
+    width: 50vw;
+    height: 10vh;
+    padding-inline: 20px;
+    justify-content: space-between;
+}
+
+.publication-auteur {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.publication-head button {
+    border: none;
+    background: transparent;
+}
+
+.publication-head img {
+    width: 5vh;
+    height: 5vh;
+}
+
+.pdp {
+    width: 8vb !important;
+    height: 8vh !important;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("image/dwayne.jpg");
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 15vh;
+}
+
+.message p {
+    width: 45vw;
+    margin-inline: auto;
+}
+
+.image-container {
+    width: 50vw;
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("image/image-optimisation-scaled.jpg");
+}
+
+.button-list {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 10vh;
+    gap: 20px;
+    padding-inline: 20px;
+}
+
+
+
+.button-list .btn {
+    width: 5vh;
+    height: 5vh;
+}
+
+.like {
+    width: 6vh !important;
+    background-position: center;
+    background-size: cover;
+    background-image: url("image/heart-regular-full.svg");
+}
+
+.comment {
+    width: 6vh !important;
+    background-position: center;
+    background-size: cover;
+    background-image: url("image/comment-regular-full.svg");
+}
+
+.share {
+    background-position: center;
+    background-size: cover;
+    background-image: url("image/paper-plane-regular-full.svg");
+}
+
+.commentaire {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.commentaire-section {
+    width: 45vw;
+    height: 75vh;
+}
+
+
+
+.pdp-commentaire {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("image/dwayne.jpg");
+}
+
+input {
+    width: 30vw;
+    height: 8vh;
+    border: none;
+    padding-inline: 20px;
+}
+
+.comment-btn {
+    width: 8vh;
+    height: 8vh;
+    border: none;
+    background-position: center;
+    background-size: cover;
+    background-image: url("image/comment-regular-full.svg");
+    background-color: transparent;
+}
+
+.commentaire-unity{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+.comtext{
+    box-shadow: 0.1vw 0.1vw 5px gray;
+    padding: 2vw;
+    margin-block: 1vw;
+    border-radius: 2vw;
+    width: auto;
+    margin: 2ch;
+    margin-right: 2ch;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 2vw;
+    border-radius: 1vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+
+#modalInput{
+    width: 26vw;
+}
