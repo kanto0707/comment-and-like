@@ -1,0 +1,3 @@
+counter-reset : intitialiser le compteur
+counter-increment : Augmenter le compteur de 1
+counter(nom_compteur) 
